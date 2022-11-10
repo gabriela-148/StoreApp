@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1E8E8A2C290DB84600AD6925 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E8E8A2B290DB84600AD6925 /* GoogleService-Info.plist */; };
+		1E9B33F0291C693E00A05F6D /* CategoriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B33EF291C693E00A05F6D /* CategoriesScreen.swift */; };
+		1E9B33F2291C694900A05F6D /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B33F1291C694900A05F6D /* SearchScreen.swift */; };
+		1E9B33F4291C695300A05F6D /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B33F3291C695300A05F6D /* AccountScreen.swift */; };
+		1E9B33F6291D4F1300A05F6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B33F5291D4F1200A05F6D /* User.swift */; };
 		1EAC4703290B307B002BD5DC /* StoreAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC4702290B307B002BD5DC /* StoreAppApp.swift */; };
 		1EAC4705290B307B002BD5DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC4704290B307B002BD5DC /* ContentView.swift */; };
 		1EAC4707290B307E002BD5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAC4706290B307E002BD5DC /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 
 /* Begin PBXFileReference section */
 		1E8E8A2B290DB84600AD6925 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E9B33EF291C693E00A05F6D /* CategoriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScreen.swift; sourceTree = "<group>"; };
+		1E9B33F1291C694900A05F6D /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		1E9B33F3291C695300A05F6D /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		1E9B33F5291D4F1200A05F6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = /Users/ghuegel/Desktop/StoreApp/StoreApp/User.swift; sourceTree = "<absolute>"; };
 		1EAC46FF290B307B002BD5DC /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAC4702290B307B002BD5DC /* StoreAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAppApp.swift; sourceTree = "<group>"; };
 		1EAC4704290B307B002BD5DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +95,7 @@
 				1EDD3E18290DC0F900253AF7 /* Screens */,
 				1EAC4702290B307B002BD5DC /* StoreAppApp.swift */,
 				1EAC4704290B307B002BD5DC /* ContentView.swift */,
+				1E9B33F5291D4F1200A05F6D /* User.swift */,
 				1E8E8A2B290DB84600AD6925 /* GoogleService-Info.plist */,
 				1EAC4706290B307E002BD5DC /* Assets.xcassets */,
 				1EAC4708290B307E002BD5DC /* Preview Content */,
@@ -108,6 +117,9 @@
 				1EDD3E1B290DC14A00253AF7 /* HomeScreen.swift */,
 				1EDD3E1D290DC16D00253AF7 /* SignInScreen.swift */,
 				1EDD3E21290DC20300253AF7 /* SignUpScreen.swift */,
+				1E9B33EF291C693E00A05F6D /* CategoriesScreen.swift */,
+				1E9B33F1291C694900A05F6D /* SearchScreen.swift */,
+				1E9B33F3291C695300A05F6D /* AccountScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -237,8 +249,12 @@
 				1EDD3E22290DC20300253AF7 /* SignUpScreen.swift in Sources */,
 				1EAC4705290B307B002BD5DC /* ContentView.swift in Sources */,
 				1EDD3E1E290DC16D00253AF7 /* SignInScreen.swift in Sources */,
+				1E9B33F4291C695300A05F6D /* AccountScreen.swift in Sources */,
+				1E9B33F2291C694900A05F6D /* SearchScreen.swift in Sources */,
+				1E9B33F6291D4F1300A05F6D /* User.swift in Sources */,
 				1EAC4703290B307B002BD5DC /* StoreAppApp.swift in Sources */,
 				1EDD3E1C290DC14A00253AF7 /* HomeScreen.swift in Sources */,
+				1E9B33F0291C693E00A05F6D /* CategoriesScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

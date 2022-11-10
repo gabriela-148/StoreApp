@@ -80,7 +80,24 @@ struct ContentView: View {
         NavigationView {
             // checks if user is signed in and changes view to homescreen at open
             if viewModel.signedIn {
-                HomeScreen()
+                TabView {
+                    HomeScreen(screenName: "Home")
+                        .tabItem {
+                            Label("Home", systemImage: "house")
+                        }
+                    SearchScreen(screenName: "Search")
+                        .tabItem {
+                            Label("Search", systemImage: "magnifyingglass")
+                        }
+                    CategoriesScreen(screenName: "Categories")
+                        .tabItem {
+                            Label("Categories", systemImage: "list.bullet")
+                        }
+                    AccountScreen(screenName: "Account")
+                        .tabItem {
+                            Label("Account", systemImage: "person.fill")
+                        }
+                }
 
             }
             else {
@@ -89,6 +106,7 @@ struct ContentView: View {
         }.navigationBarHidden(true).onAppear {
             viewModel.signedIn = viewModel.isSignedIn
         }
+        
         
     }
 }
